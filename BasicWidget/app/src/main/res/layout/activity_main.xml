@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="RESULT : "
+            android:id="@+id/result" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="결과값"
+            android:id="@+id/resultValue"
+            android:layout_toRightOf="@+id/result"
+            android:layout_toEndOf="@+id/result" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Radio Button"
+            android:layout_below="@id/result"
+            android:id="@+id/radioButtonName" />
+
+        <RadioGroup
+            android:layout_below="@id/radioButtonName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal"
+            android:id="@+id/radioGroup">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apple"
+                android:id="@+id/radioApple"
+                android:checked="false" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Orange"
+                android:id="@+id/radioOrange"
+                android:checked="false"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Banana"
+                android:id="@+id/radioBanana"
+                android:checked="false"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/radioGroup"
+            android:text="Check Box"
+            android:id="@+id/checkBoxName" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/checkBoxes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/checkBoxName"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dog"
+                android:id="@+id/checkBoxDog"
+                android:checked="false" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pig"
+                android:id="@+id/checkBoxPig"
+                android:checked="false" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chicken"
+                android:id="@+id/checkBoxChicken"
+                android:checked="false" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/checkBoxes"
+            android:text="Switch"
+            android:id="@+id/switchName" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/switches"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/switchName"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="On / Off"
+                android:id="@+id/onOffSwitch"
+                android:checked="false" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/switches"
+            android:text="Toggle"
+            android:id="@+id/toggleName" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/toggles"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toggleName"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New ToggleButton"
+                android:id="@+id/toggleButton"
+                android:checked="false" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toggles"
+            android:text="Progress Bar"
+            android:id="@+id/progressBarName" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/progressBars"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/progressBarName"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/progressBar"
+                android:indeterminate="false" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/progressBars"
+            android:text="Seek Bar"
+            android:id="@+id/seekBarName" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/seekBars"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/seekBarName"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:weightSum="1">
+
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBar"
+                android:layout_weight="0.96"
+                android:progress="50"
+                android:max="200"
+                android:indeterminate="false" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/seekBars"
+            android:layout_alignParentRight="true"
+            android:text="0%"
+            android:id="@+id/percentage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/seekBars"
+            android:text="Rating Bar"
+            android:id="@+id/ratingBarName" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/ratingBars"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/ratingBarName"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ratingBar"
+                android:layout_gravity="center_vertical" />
+            <!--
+            numStart : 별 개수 : 눈에 보이는 최대값
+            rating = 시작값
+            stepSize = 0/5
+            - 크기 조정
+            style="android:attr/ratingBarStyleSmall"
+            작은 스타일
+            기본
+            -->
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0%"
+            android:id="@+id/ratingBarPercent"
+            android:layout_below="@id/ratingBars"
+            android:layout_alignParentEnd="true" />
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@id/toggles"-->
+            <!--android:text="Progress Bar"-->
+            <!--android:id="@+id/progressBarName" />-->
+
+        <!--<LinearLayout-->
+            <!--android:orientation="horizontal"-->
+            <!--android:id="@+id/progressBars"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_below="@+id/progressBarName"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:layout_marginRight="23dp"-->
+            <!--android:layout_marginEnd="23dp">-->
+
+            <!--<ProgressBar-->
+                <!--style="?android:attr/progressBarStyleLarge"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/progressBar"-->
+                <!--android:indeterminate="false" />-->
+        <!--</LinearLayout>-->
+
+
+    </RelativeLayout>
+
+</ScrollView>

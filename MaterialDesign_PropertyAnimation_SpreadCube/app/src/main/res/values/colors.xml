@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="PRIMARY">#3F51B5</color>
+    <color name="PRIMARYDARK">#303F9F</color>
+    <color name="ACCENT">#FF4081</color>
+    <color name="RED">#f44336</color>
+    <color name="BLACK">#000000</color>
+    <color name="BLUE">#2196f3</color>
+    <color name="YELLOW">#ffeb3b</color>
+    <color name="WHITE">#FFFFFF</color>
+    <color name="GREEN">#8bc34a</color>
+    <color name="BROWN">#795548</color>
+</resources>

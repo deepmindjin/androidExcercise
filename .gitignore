@@ -1,3 +1,10 @@
+<<<<<<< de209d7586f8143aa98acf45b0b5ecce4ca94ece
+=======
+
+# Created by https://www.gitignore.io/api/android,java
+
+### Android ###
+>>>>>>> First setting for android excercise
 # Built application files
 *.apk
 *.ap_
@@ -35,6 +42,31 @@ captures/
 # Intellij
 *.iml
 .idea/workspace.xml
+<<<<<<< de209d7586f8143aa98acf45b0b5ecce4ca94ece
 
 # Keystore files
 *.jks
+=======
+.idea/libraries
+
+# Keystore files
+*.jks
+
+### Android Patch ###
+gen-external-apklibs
+
+
+### Java ###
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+>>>>>>> First setting for android excercise

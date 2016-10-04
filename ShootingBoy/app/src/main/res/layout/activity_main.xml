@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hongseokandrewjang.android.shootingboy.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="START"
+        android:id="@+id/startBtn"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="startGame" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/startBtn"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/playGround"
+        android:weightSum="1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/balloon"
+            android:layout_below="@+id/startBtn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/abc_text_select_handle_middle_mtrl_dark"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignRight="@+id/startBtn"
+            android:layout_alignEnd="@+id/startBtn"
+            android:layout_weight="0.08" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/emptySpace"
+            android:layout_weight="0.97" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bullet"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.08"
+            android:src="@drawable/abc_seekbar_thumb_material" />
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/player"
+            android:src="@android:drawable/sym_def_app_icon"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignRight="@+id/startBtn"
+            android:layout_alignEnd="@+id/startBtn" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.08"
+            android:id="@+id/buttons">
+
+            <Button
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:text="LEFT"
+                android:id="@+id/leftBtn"
+                android:layout_weight="0.08"
+                android:nestedScrollingEnabled="false"
+                android:onClick="moveLeft" />
+
+            <Button
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:text="RIGHT"
+                android:id="@+id/rightBtn"
+                android:layout_weight="0.08"
+                android:onClick="moveRight" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

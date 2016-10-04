@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="widget">
+    <item>생활위젯</item>
+    <item>그냥위젯</item>
+    <item>웹툰</item>
+    <item>지도</item>
+    <item>주소록</item>
+</string-array>
+</resources>
