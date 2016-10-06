@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hongseokandrewjang.android.fragmentbasic02.FragmentOne"
+    android:background="#00FFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment One"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/fragmentOne" />
+
+    <Button
+        android:text="GO to Two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/goToTwoBTn"
+        android:layout_marginBottom="28dp"
+        android:layout_above="@+id/fragmentOne"
+        android:layout_alignLeft="@+id/fragmentOne"
+        android:layout_alignStart="@+id/fragmentOne" />
+
+</RelativeLayout>

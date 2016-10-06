@@ -35,8 +35,6 @@ public class MainActivity extends AppCompatActivity {
             initData();
         else
             checkPermission();
-
-
     }
 
     @TargetApi(M)
@@ -96,7 +94,6 @@ public class MainActivity extends AppCompatActivity {
                 data.image = bitmap;
                 index= cursor.getColumnIndex(MediaStore.Audio.Media._ID);
                 data.musicId = cursor.getString(index);
-
                 datas.add(data);
             }
         }
