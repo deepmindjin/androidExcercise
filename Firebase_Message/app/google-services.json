@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "699853524541",
+    "firebase_url": "https://fir-message-d520b.firebaseio.com",
+    "project_id": "fir-message-d520b",
+    "storage_bucket": "fir-message-d520b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699853524541:android:dd6bb9dc4ee4be40",
+        "android_client_info": {
+          "package_name": "com.hongseokandrewjang.android.firebase_message"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "699853524541-u55chiip675eq1mmgimem5igngtibog5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxyQjFQH1ldUgfFYsahj-0n3x90bbPnGE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699853524541:android:692894e06e3e6dba",
+        "android_client_info": {
+          "package_name": "com.hongseokandrewjang.android.firebase_auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "699853524541-u55chiip675eq1mmgimem5igngtibog5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxyQjFQH1ldUgfFYsahj-0n3x90bbPnGE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
