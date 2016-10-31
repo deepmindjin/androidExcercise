@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "904058616589",
+    "firebase_url": "https://fckorea-f31d6.firebaseio.com",
+    "project_id": "fckorea-f31d6",
+    "storage_bucket": "fckorea-f31d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904058616589:android:36db225c2e4ad5e9",
+        "android_client_info": {
+          "package_name": "com.hongseokandrewjang.android.firebase_database"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904058616589-8m9e8rjjt0klg3urfeos7mqfik83jrtg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk1xN2w4IKUoUQ_kk56ngSc0NTtxIMPFA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
