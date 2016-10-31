@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ButterKnife</string>
+
+    <string name="butter_knife">리소스가져옴</string>
+</resources>
