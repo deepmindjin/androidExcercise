@@ -29,8 +29,6 @@ public class MusicPlayerMain extends AppCompatActivity {
         pager = (ViewPager)findViewById(R.id.viewPager);
         PagerAdapter adapter = new PagerAdapter(getSupportFragmentManager());
         pager.setAdapter(adapter);
-
-
     }
 
     private void setData(){
@@ -38,7 +36,6 @@ public class MusicPlayerMain extends AppCompatActivity {
             MusicData music = MusicData();
             music.artist = ""+i+"번 째 아티스트 입니다";
             music.title = "Song Number : "+i;
-
         }
     }
 }
