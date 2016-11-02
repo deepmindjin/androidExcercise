@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Firebase_Database01</string>
+    <string name="title_activity_detail">DetailActivity</string>
+</resources>
